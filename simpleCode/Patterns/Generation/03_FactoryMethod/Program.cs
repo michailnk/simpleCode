@@ -14,7 +14,7 @@ namespace FactoryMethod {
 
     class ConcreteProduct : Product {
         public ConcreteProduct() {
-            Console.WriteLine(this.GetHashCode()) ;
+            Console.WriteLine(this.GetHashCode());
         }
     }
 
