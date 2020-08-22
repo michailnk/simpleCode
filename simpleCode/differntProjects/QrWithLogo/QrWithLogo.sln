@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30310.162
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateQR", "..\GenerateQR\GenerateQR.csproj", "{4AE30D23-1494-4EA0-BACC-5567BD6D1642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateQRwithLogo", "..\GenerateQRwithLogo\GenerateQRwithLogo.csproj", "{C964CC74-696F-4631-810E-4E3D6CD9A9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE30D23-1494-4EA0-BACC-5567BD6D1642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE30D23-1494-4EA0-BACC-5567BD6D1642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE30D23-1494-4EA0-BACC-5567BD6D1642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE30D23-1494-4EA0-BACC-5567BD6D1642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C964CC74-696F-4631-810E-4E3D6CD9A9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C964CC74-696F-4631-810E-4E3D6CD9A9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C964CC74-696F-4631-810E-4E3D6CD9A9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C964CC74-696F-4631-810E-4E3D6CD9A9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB5FC9D1-A8C9-4B73-9B56-DF535C129B01}
+	EndGlobalSection
+EndGlobal
