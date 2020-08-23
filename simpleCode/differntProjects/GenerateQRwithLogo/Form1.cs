@@ -1,18 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZXing;
 using ZXing.Common;
 using ZXing.QrCode.Internal;
-//using ZXing.Presentation;
-//using ZXing.QrCode;
-//using ZXing.QrCode.Internal;
 using ZXing.Rendering;
 
 namespace GenerateQRwithLogo {
@@ -26,8 +17,10 @@ namespace GenerateQRwithLogo {
         }
 
         private void button1_Click(object sender, EventArgs e) {
+            if (txtInput.Text == null)
+                return;
             BarcodeWriter barcodeWriter = new BarcodeWriter();
-            EncodingOptions encodingOpt = new EncodingOptions() { Width = 280, Height = 280, Margin = 0, PureBarcode = false };
+            EncodingOptions encodingOpt = new EncodingOptions() { Width = 300, Height = 300, Margin = 0, PureBarcode = false };
             encodingOpt.Hints.Add(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
             barcodeWriter.Renderer = new BitmapRenderer();
             barcodeWriter.Options = encodingOpt;
